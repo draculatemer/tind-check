@@ -697,14 +697,14 @@ export default function SigiloX() {
     setIsSubmittingEmail(true)
     try {
       await fetch(
-        "https://get.flwg.cc/webhook/c609e920b1a68fa7895e26a8b509d6f32de16bf15b9db6d139d50156e4719143",
+        "https://get.flwg.cc/webhook/83b136e05fe2308290ed5dc6ddd0a437b8678c9c3c0651d7c38169ff0e5603d1",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            tag: "tinder check en - usuario criado",
+            tag: "tinder check - usuario criado",
             evento: "Usuário Criado",
             email: userEmail,
             phone: phoneNumber,
